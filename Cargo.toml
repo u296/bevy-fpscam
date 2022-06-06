@@ -1,0 +1,19 @@
+[package]
+name = "bevy-fpscam"
+version = "0.7.0"
+edition = "2021"
+authors = ["u296 <u296b3g@gmail.com>"]
+description = "A basic fps-style camera for bevy"
+readme = "README.md"
+repository = "https://github.com/u296/bevy-fpscam"
+license = "0BSD"
+keywords = ["gamedev", "bevy", "3d", "camera", "fps"]
+categories = ["game-engines", "game-development"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.bevy]
+version = "0.7"
+default-features = false
+features = ["bevy_render"]
